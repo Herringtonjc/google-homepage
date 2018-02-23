@@ -1,4 +1,70 @@
-#logo {
+li {
+	display: inline;
+	padding-left: 15px;
+}
+
+.main-form {
+	display: flex;
+	flex-direction: column;
+	min-height: 85vh;
+	max-height: 100vh;
+	margin-top: 100px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.search-box {
+	display: flex;
+	justify-content: center;
+}
+
+#search-box {
+	width: 585px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+.nav-left {
 	position: absolute;
-	left: 50%;
+	top: 5px;
+	left: 5px;
+	padding: 10px;
+}
+
+.nav-right {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	padding: 10px;
+}
+
+.buttons {
+	margin: 20px;
+}
+
+.right-button {
+	margin-left: 15px;
+}
+
+.footer-left {
+	position: absolute;
+	left: 5px;
+	padding: 10px;
+	bottom: 5px;
+}
+
+.footer-right {
+	position: absolute;
+	right: 12px;
+	padding: 10px;
+	bottom: 5px;
 }
