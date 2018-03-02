@@ -1,10 +1,16 @@
 body {
 	font-family: arial, sans-serif;
+	text-align: center;
+	font-size: small;
 }
 
 li {
 	display: inline;
-	padding-left: 15px;
+	padding-left: 14px;
+}
+
+a {
+	color: #666;
 }
 
 a:hover {
@@ -12,53 +18,94 @@ a:hover {
 }
 
 .main-form {
-	margin-top: 200px;
-}
-
-.logo {
-	display: flex;
-	justify-content: center;
+	margin-top: 198px;
 }
 
 .search-box {
-	display: flex;
-	justify-content: center;
+	margin-top: 23px;
 }
 
 #search-box {
-	width: 585px;
-	height: 35px;
-	margin-top: 36px;
+	text-align: left;
+	vertical-align: bottom;
+	width: 556px;
+	height: 18px;
 	border: medium none;
-	box-shadow: 1px 1px 1px 1px #888;
+	box-shadow: 1px .5px 2px #ccc, -1px 2px 2px #ccc;
+	padding: 14px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+#search-box:hover {
+	box-shadow: 2px 2px 2px #ccc, -1px -1px 2px #ccc;
 }
 
 .buttons {
-	display: flex;
-	justify-content: center;
-	margin-left: 10px;
-	margin: 40px;
+	margin: 32px;
+}
+
+.left-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: gray;
+	border: 1px solid transparent;
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+
+.left-button:hover {
+	border: 1px solid #ccc;
+	color: black;
+}
+
+.right-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	margin-left: 16px;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: gray;
+	border: 1px solid transparent;
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+
+.right-button:hover {
+	border: 1px solid  #ccc;
+	color: black;
 }
 
 .nav-left {
 	position: absolute;
 	top: 5px;
 	left: 5px;
-	padding: 10px;
+	padding: 8px;
 	margin-top: 10px;
+}
+
+.nav-left a {
+	color: #000;
 }
 
 .nav-right {
 	position: absolute;
 	right: 5px;
 	top: 5px;
-	padding: 10px;
+	padding: 8px;
 	margin-top: 10px;
-	font-family: arial, sans-serif;
+	margin-right: 10px;
 }
 
-.right-button {
-	margin-left: 15px;
+.nav-right a {
+	color: #000;
 }
 
 .footer-left {
