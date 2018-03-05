@@ -57,6 +57,7 @@ a:hover {
 	width: auto;
 	height: auto;
 	padding: 10px;
+	background-color: none;
 }
 
 .left-button:hover {
@@ -76,6 +77,7 @@ a:hover {
 	width: auto;
 	height: auto;
 	padding: 10px;
+	background-color: none;
 }
 
 .right-button:hover {
