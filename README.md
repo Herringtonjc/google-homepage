@@ -2,4 +2,4 @@ A project involving the reconstruction the Google main search page from The Odin
 
 The 'Easy' project can be found under index.html, the 'Difficult' project can be found under search.html
 
-Alternatively, click [here](https://www.herringtonjc.github.io/google-homepage) for 'Easy' or [here](https://herringtonjc.github.io/google-homepage/search.html) for 'Difficult'.
+Alternatively, click [here](https://www.herringtonjc.github.io/google-homepage/index.html) for 'Easy' or [here](https://herringtonjc.github.io/google-homepage/search.html) for 'Difficult'.
